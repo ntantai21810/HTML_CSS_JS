@@ -1,0 +1,98 @@
+.header {
+  max-width: 100%;
+  background-color: #e73f2c;
+  color: #fefaf9;
+  padding: 8px 82px;
+  height: 120px;
+  font-size: 14px;
+  line-height: 15.6px;
+  font-family: Helvetica, sans-serif;
+}
+
+.header .header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header__top .header__top-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header__top .header__top-info .header__top-info-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header__top .header__top-info .header__top-info-list .header__top-info-item {
+  position: relative;
+  padding: 0 8px;
+}
+
+.header .header__top .header__top-info .header__top-info-list .header__top-info-item:hover {
+  cursor: pointer;
+}
+
+.header .header__top .header__top-info .header__top-info-list .header__top-info-item:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  background-color: white;
+  opacity: 0.3;
+  left: 100%;
+}
+
+.header .header__top .header__top-info .header__top-info-list .header__top-info-item:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  background-color: white;
+  opacity: 0.3;
+  left: 100%;
+}
+
+.header .header__top .header__top-info .header__top-icon i {
+  font-size: 16px;
+  padding: 0 4px;
+}
+
+.header .header__top .header__top-notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header__top .header__top-notification .header__top--notification-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .header__top .header__top-notification .header__top--notification-list .header__top-notification-item {
+  position: relative;
+  padding: 0 10px;
+}
+
+.header .header__top .header__top-notification .header__top--notification-list .header__top-notification-item i {
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.header .header__top .header__top-notification .header__top--notification-list .header__top-notification-item:nth-last-child(2)::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  background-color: white;
+  opacity: 0.3;
+  left: 100%;
+}
+/*# sourceMappingURL=style.css.map */
